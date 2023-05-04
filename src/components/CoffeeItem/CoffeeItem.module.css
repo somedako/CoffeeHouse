@@ -1,0 +1,83 @@
+.card {
+    max-width: 220px;
+    height: 260px;
+    padding: 37px 27px 10px;
+    box-shadow: 5px 5px 35px rgba(0, 0, 0, 0.25);
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+.cardDesc {
+    text-align: right;
+    margin-top: 35px;
+}
+
+.intro {
+    width: 100%;
+    height: 260px;
+    background: #fff url(../../../public/image/Our-bg.jpg) center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.introTitle {
+    font-size: 2.66rem;
+    font-weight: 700;
+    font-style: italic;
+    color: #fff;
+    margin-top: 2.8em;
+    margin-bottom: 0.3em;
+}
+
+.aboutTitle {
+    font-size: 1.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.41;
+}
+
+.aboutDescr {
+    text-align: left;
+    margin: 0 auto 7.7em;
+    max-width: 346px;
+    font-size: 0.93rem;
+    line-height: 1.42;
+}
+
+.beans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 11em;
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.beansImg {
+    height: 220px;
+}
+
+.itemLink {
+    color: black;
+    transition: color 0.2s linear;
+}
+
+.itemLink:hover {
+    text-decoration: underline;
+    color: rgb(240, 186, 105);
+}
+
+@media (max-width: 670px) {
+    .beans {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .aboutDescr {
+        padding: 0 10px;
+    }
+}

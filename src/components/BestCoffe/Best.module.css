@@ -1,0 +1,22 @@
+.best {
+    min-height: 495px;
+    padding: 5.3em 0 7.3em 0;
+
+    background: url(../../../public/image/mask-group.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.bestTitle {
+    font-weight: 400;
+    font-size: 1.71rem;
+    font-style: italic;
+    line-height: 1.45;
+}
+
+.bestContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 6em;
+    gap: 30px;
+}

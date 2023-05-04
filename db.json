@@ -1,0 +1,52 @@
+{
+    "coffees": [
+        {
+            "id": 1,
+            "imageUrl": "/image/coffee_1.jpg",
+            "title": "AROMISTICO Coffee 1 kg",
+            "country": "Brazil",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": 60
+        },
+        {
+            "id": 2,
+            "imageUrl": "/image/coffee_2.jpg",
+            "title": "AROMISTICO Coffee 2 kg",
+            "country": "Kenya",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": 70
+        },
+        {
+            "id": 3,
+            "imageUrl": "/image/coffee_3.jpg",
+            "title": "AROMISTICO Coffee 3 kg",
+            "country": "Columbia",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": 80
+        },
+        {
+            "id": 4,
+            "imageUrl": "/image/coffee_1.jpg",
+            "title": "NESCAFE Coffee 1 kg",
+            "country": "Brazil",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": 10
+        },
+        {
+            "id": 5,
+            "imageUrl": "/image/coffee_2.jpg",
+            "title": "NESCAFE Coffee 2 kg",
+            "country": "Kenya",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": 20
+        },
+        {
+            "id": 6,
+            "imageUrl": "/image/coffee_3.jpg",
+            "title": "NESCAFE Coffee 3 kg",
+            "country": "Columbia",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "price": 30
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+.nav {
+    max-width: 384px;
+    padding: 4em;
+    position: relative;
+    z-index: 2;
+}
+
+.nav::before {
+    display: block;
+    width: 35px;
+    height: 35px;
+    content: '';
+    position: absolute;
+    top: 41px;
+    left: 79px;
+    background-image: url(../../../public/image/coffee-beans.svg);
+}
+
+.navLink {
+    margin-left: 3.33em;
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    font-style: italic;
+    font-weight: 400;
+
+    transition: 0.3s all;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+    color: rgb(240, 186, 105);
+}
+
+.active {
+    color: rgb(240, 186, 105);
+}
+
+@media (max-width: 550px) {
+    .nav {
+        width: 100%;
+        padding: 4em 0 1em 0;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .nav::before {
+        top: 41px;
+        left: 25px;
+    }
+
+    .navLink {
+        margin-left: 2.33em;
+    }
+}
